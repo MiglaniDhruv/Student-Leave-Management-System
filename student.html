@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stu.css">
+    <title>Leave Management System</title>
+</head>
+
+<body>
+    <h1>Leave Request Form</h1>
+
+    <form action="stuconnect.php" method="post">
+    
+        <label for="leave_type">Leave Type:</label>
+        <select id="leave_type" name="leave_type">
+            <option value="sick_leave">Sick Leave</option>
+            <option value="vacation_leave">Vacation Leave</option>
+            <option value="other_leave">Other Leave</option>
+        </select><br>
+
+        <label for="enrollment_number">Enrollment Number:</label>
+        <input type="text" id="enrollment_number" name="enrollment_number" rows="1" cols="50" required><br><br>
+        
+        <label for="start_date">Start Date:</label>
+        <input type="date" id="start_date" name="start_date" required><br>
+
+        <label for="end_date">End Date:</label>
+        <input type="date" id="end_date" name="end_date" required><br>
+
+        <label for="reason">Reason:</label><br>
+        <textarea id="reason" name="reason" rows="4" cols="50" required></textarea><br>
+
+        <input type="submit" value="Submit" name="submit">
+    </form>
+
+</body>
+
+</html>

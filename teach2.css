@@ -1,0 +1,95 @@
+.heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.heading::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 2px;
+    background-color: #333;
+}
+
+.leave-head {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-headings th {
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    color: #333;
+}
+
+.table td,
+.table th {
+    padding: 15px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #ec0f0f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #fff;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.back-btn {
+    background-color: #580be7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back-btn i {
+    margin-right: 5px;
+}
+
+body {
+    margin-bottom: 80px;
+}
+
+.logout-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    background-color: #4e54c8;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.logout-btn:hover {
+    background-color: #8f94fb;
+}

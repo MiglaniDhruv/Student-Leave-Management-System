@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://th.bing.com/th/id/R.79bad3bc3f10af0430d6f062d4141c5b?rik=YDxlpERjaepLyQ&riu=http%3a%2f%2fheroespasee.weebly.com%2fuploads%2f1%2f3%2f8%2f0%2f138049455%2f450844542_orig.jpg&ehk=28opqvLejoMX%2bO1s%2fodnXbV9DkIZxMDEyxKftsVeHO8%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    padding: 18px 0;
+    margin: 0;
+    left: -3%;
+    width: 95%;
+    background-color: rgb(244, 164, 96);
+}
+
+.logout-btn {
+    background-color: rgba(250, 245, 247, 0.915);
+    color: rgb(255, 255, 255, 1);
+    padding: 10px 20px;
+    border: 2px solid rgb(255, 255, 255, 1);
+    border-radius: 50px;
+    /* Rounded shape */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    z-index: 9999;
+    /* Ensure it's on top of other elements */
+}
+
+.logout-btn:hover {
+    background-color: rgb(255, 255, 255, 1);
+    border-color: #f7f8fa;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    padding: 20px 35px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #d2b48c;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    background-color: #f0f0f0;
+    color: #666;
+}
+
+footer {
+    background-color: rgb(101, 67, 33);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    color: #e6e6e6;
+}
